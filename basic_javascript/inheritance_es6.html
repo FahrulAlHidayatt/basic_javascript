@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inheritance ES6</title>
+</head>
+<body>
+<script>
+    class Human {
+        constructor(name) {
+            this.name = name;
+        }
+    }
+    class Student
+        extends Human {
+        constructor(name, age) {
+            super(name);
+            this.age = age;
+        }
+    }
+</script>
+</body>
+</html>

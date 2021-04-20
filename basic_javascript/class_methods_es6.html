@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classes Methods ES6</title>
+</head>
+<body>
+<script>
+    class Dog {
+        constructor(name) {
+            this.name = name;
+        }
+        bark() {
+            console.log(this.name + ' barks.');
+        }
+    }
+    let d = new Dog('Rex');
+    d.bark();
+</script>
+</body>
+</html>

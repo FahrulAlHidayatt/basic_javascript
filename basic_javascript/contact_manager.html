@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Manager</title>
+</head>
+<body>
+<script>
+    function contact(name, number) {
+        this.name = name;
+        this.number = number;
+        this.print = function print(){
+            console.log(this.name+":",this.number);
+        }
+    }
+    var a = new contact("David", 12345);
+    var b = new contact("Amy", 987654321);
+    a.print();
+    b.print();
+</script>
+</body>
+</html>
